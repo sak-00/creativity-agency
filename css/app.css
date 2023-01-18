@@ -1,0 +1,106 @@
+* {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+}
+
+/*common feature*/
+figcaption a {
+  color: #fff;
+  background-color: black;
+  padding: 0px 5px;
+  font-size: 1.1vw;
+}
+figcaption a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+}
+
+/*tool*/
+.pos-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+}
+
+/* header*/
+
+.navbar a {
+  color: #000;
+}
+.navbar a:hover {
+  color: #17a2b8;
+}
+.header {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../image/header_pic.jpg");
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.overlay-dark {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.header-title {
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*welcome*/
+.section-title p {
+  text-transform: capitalize;
+}
+.section-title span {
+  display: block;
+  margin: auto;
+}
+
+figure {
+  width: 100%;
+  position: relative;
+}
+.section-pic img {
+  width: 100%;
+  border: 7px solid #ddd;
+}
+
+.award {
+  width: 100%;
+  height: 35%;
+  background-image: url("../image/award.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+.container-60 {
+  width: 60%;
+  margin: auto;
+}
+.footer-list {
+  list-style: none;
+}
+.logo-footer {
+  color: #fff;
+  text-decoration: none;
+}
+.logo-footer:hover {
+  color: #17a2b8;
+  text-decoration: none;
+}
+.container-40 {
+  width: 40%;
+  margin: auto;
+}

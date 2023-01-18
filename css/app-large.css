@@ -1,0 +1,19 @@
+.logo {
+  font-size: 30px;
+}
+.header-title h2 {
+  font-size: 3rem;
+  font-weight: 250;
+  line-height: 1.2;
+}
+.header-title p {
+  font-size: 1rem;
+  font-weight: 250;
+  text-align: center;
+}
+figcaption {
+  width: 50%;
+}
+figure figcaption {
+  width: 100%;
+}
